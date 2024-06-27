@@ -1,0 +1,30 @@
+/* src/components/Settings.css */
+
+.main-container {
+    padding: 20px;
+    color: gray;
+  }
+  
+  .main-title {
+    margin-bottom: 20px;
+    color: blue;
+  }
+  
+  .settings-container {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .setting {
+    margin-bottom: 15px;
+    color: yellow;
+  }
+  
+  .setting label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:rebeccapurple;
+  }
+  

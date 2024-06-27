@@ -1,0 +1,71 @@
+/* src/components/Reports.css */
+
+.reports-container {
+    padding: 20px;
+  }
+  
+  .reports-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .reports-form input, .reports-form textarea {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .reports-form button {
+    padding: 8px 12px;
+    background-color: #2962ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .reports-form button:hover {
+    background-color: #0039cb;
+  }
+  
+  .reports-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .reports-table th, .reports-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .reports-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .reports-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .reports-actions button {
+    margin-right: 8px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .reports-actions .edit-btn {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .reports-actions .delete-btn {
+    background-color: #f44336;
+    color: #fff;
+  }
+  

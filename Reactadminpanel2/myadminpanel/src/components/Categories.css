@@ -1,0 +1,66 @@
+/* src/components/Categories.css */
+
+.categories-container {
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.95);
+  }
+  
+  .search-input {
+    margin-bottom: 20px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .add-category-form {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .add-category-form input {
+    padding: 8px;
+    flex: 1;
+  }
+  
+  .add-category-form button {
+    padding: 8px 16px;
+    background-color: #2962ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-category-form button:hover {
+    background-color: #0039cb;
+  }
+  
+  .categories-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .categories-table th, .categories-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  .categories-table th {
+    background-color: #1d2634;
+  }
+  
+  .categories-table td {
+    background-color: #263043;
+  }
+  
+  .categories-table button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .categories-table button:hover {
+    opacity: 0.8;
+  }
+  
